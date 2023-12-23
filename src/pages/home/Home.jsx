@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import MainHeader from "../../components/MainHeader";
+<<<<<<< HEAD
 import Program from "../../components/Program";
 import Values from "../../components/Values";
 import FAQs from "../../components/FAQs";
@@ -56,6 +57,19 @@ const Home = () => {
       {/* <Footer /> comment this out so footer wount be double */}
     </>
   );
+=======
+import About from "../about/About";
+
+const Home = () => {
+  return (<>
+    <MainHeader/>
+    <About/>
+    {/*<Program/>
+    <Values/>
+    <FAQs/>
+    <Testimonial/>*/}
+  </>);
+>>>>>>> upstream/main
 };
 
 export default Home;
